@@ -18,6 +18,10 @@ Options:
     -h, --help                       Display this screen
 ```
 
+## Installation
+
+Not yet published, so clone this repo and run ``rake install``
+
 ## Defining aliases
 
 Simply create a ``~/.nadb.config`` file with contents like these:
