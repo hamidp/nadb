@@ -102,6 +102,22 @@ eos
         return
       end
 
+      # Run on a specific device
+      if @options[:name]
+        if !@config.key? "aliases"
+          raise "No aliases defined in your ~/nadb.config file"
+        end
+
+        device = @config["aliases"][@options[:name]]
+        if device.nil?
+          raise "Requested device not found in aliases"
+        end
+        
+        run_adb_command command_to_run, device
+
+        return
+      end
+
       # Run on all connected devices
       if @options[:all]
         devices = get_connected_devices
