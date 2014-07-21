@@ -20,7 +20,8 @@ Options:
 
 ## Installation
 
-Not yet published, so clone this repo and run ``rake install``
+``gem install nadb``
+
 
 ## Defining aliases
 
