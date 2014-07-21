@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'Nadb'
+n = Nadb::Tool.new
+n.run ARGV
