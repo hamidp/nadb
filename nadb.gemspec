@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["hamid.palo@gmail.com"]
   spec.summary       = %q{A nicer interface for adb}
   spec.description   = %q{}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/hamidp/nadb"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
