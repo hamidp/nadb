@@ -22,6 +22,11 @@ Options:
 
 ``gem install nadb``
 
+## Upcoming features
+
+*  ``-p`` or ``--pick`` for an interactive picker
+*  alias add/remove commands so you don't have to edit the config file yourself
+*  More better device display
 
 ## Defining aliases
 
